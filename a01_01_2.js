@@ -33,10 +33,11 @@ class ContactInfo extends React.Component{
       
       return(
         <div>
-          <div>Abet 010-0000-0001</div>
+          {/* <div>Abet 010-0000-0001</div>
           <div>Betty 010-0000-0002</div>
           <div>Charile 010-0000-0003</div>
-          <div>David 010-0000-0004</div>
+          <div>David 010-0000-0004</div> */}
+          {mapToComponent(this.state.contactData)}
         </div>
       );
     }
